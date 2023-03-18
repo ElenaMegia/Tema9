@@ -49,13 +49,13 @@ public class Ejercicio2 {
     }
 
 
-    private void switchOptions() {
+    public void Ejercicio2metodo() {
         boolean repeat = false;
         do {
             try {
 
                 repeat = false;
-                System.out.println("¿En qué idioma deseas comunicarte?"
+                System.out.println("\n¿En qué idioma deseas comunicarte?\n"
                         + "1º Español.\n"
                         + "2º Ingles.\n"
                         + "3º Francés.\n"

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Tema9Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Tema9Application.class, args);
+		Menu.switchOptions();
 	}
 
 }
